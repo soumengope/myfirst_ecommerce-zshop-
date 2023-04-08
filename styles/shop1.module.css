@@ -1,0 +1,26 @@
+
+.zshop_logo{width:386px;height:97px;font-size:80px;font-weight:400;margin-top:38px;margin-left:67px;}
+
+.content_write{font-size:30px;font-weight:400;margin-left:67px;margin-top:30px;}
+
+.logsign{width:440px;height:56px;margin-top:40px;margin-left:67px;display:flex;justify-content:space-between;}
+.login_btn button{width:205px;height:56px;border:2px solid black;background:black;font-size:18px;
+color:white;}
+.signup_btn button{width:205px;height:56px;border:2px solid black;background:#ffff;font-size:18px;}
+
+.mainCenterDiv{display:flex;}
+.leftImg{width:340px;height:636px;margin-left:67px;margin-top:30px;border:2px solid black;}
+.price_size{display:flex;justify-content:space-between;}
+.price{margin-left:15px;margin-top:20px;}
+.size{margin-right:15px;margin-top:20px;}
+.colors{display:flex;gap:8px;margin-left:15px;margin-top:20px;}
+.black{width:17px;height:17px;border-radius:50%;background:black;}
+.blue{width:17px;height:17px;border-radius:50%;background:blue;}
+.green{width:17px;height:17px;border-radius:50%;background:green;}
+.ratings{display:flex;gap:5px;margin-left:15px;margin-top:20px;align-items:center;}
+.star1{filter: invert(98%) sepia(29%) saturate(5396%) hue-rotate(317deg) brightness(109%) contrast(100%);}
+.addtocart{margin-top:26px;width:100%;height:56px;}
+.addtocart button{width:100%;height:56px;background:black;color:white;border:1px solid black;cursor:pointer;
+font-size:24px;font-weight:400;}
+
+.center_img{position:relative;left:0px;bottom:0px;bottom:100px;z-index:-1;}

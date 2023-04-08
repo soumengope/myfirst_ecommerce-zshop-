@@ -1,0 +1,91 @@
+.main{display:grid;grid-template-columns:repeat(5,1fr);}
+.sidebar{height:1000px;width:100%;background:black;color:white;border-top:1px solid white;grid-column:1/2;
+    }
+.main_contents{grid-column:2/-1;}
+
+.colorsRating{border-bottom:1px solid white;}
+.colorText{margin-left:22px;margin-top:20px;font-size:24px;font-weight:400;}
+.colorRed{margin-left:22px;margin-top:20px;font-size:18px;}
+.colorBlue{margin-left:22px;margin-top:14px;font-size:18px;}
+.colorGreen{margin-left:22px;margin-top:14px;font-size:18px;}
+.colorBlack{margin-left:22px;margin-top:14px;font-size:18px;}
+.colorWhite{margin-left:22px;margin-top:14px;font-size:18px;margin-bottom:26px;}
+
+.sizesRating{border-bottom:1px solid white;}
+.sizeText{margin-left:22px;margin-top:20px;font-size:24px;font-weight:400;}
+.sizeS{margin-left:22px;margin-top:20px;font-size:18px;}
+.sizeM{margin-left:22px;margin-top:14px;font-size:18px;}
+.sizeL{margin-left:22px;margin-top:14px;font-size:18px;}
+.sizeXL{margin-left:22px;margin-top:14px;font-size:18px;margin-bottom:26px;}
+
+.pricesRating{border-bottom:1px solid white;}
+.priceText{margin-left:22px;margin-top:20px;font-size:24px;font-weight:400;}
+.price25{margin-left:22px;margin-top:20px;font-size:18px;}
+.price50{margin-left:22px;margin-top:14px;font-size:18px;}
+.price100{margin-left:22px;margin-top:14px;font-size:18px;}
+.price100plus{margin-left:22px;margin-top:14px;font-size:18px;margin-bottom:26px;}
+
+.ratingText{margin-left:22px;margin-top:20px;font-size:24px;font-weight:400;}
+.ratingSlider{margin-left:22px;margin-top:14px;font-size:18px;}
+.ratingLeftRightVal{display:flex;margin-left:21px;gap:17px;position:relative;bottom:10px;}
+
+.filters{margin-left:22px;margin-top:50px;width:176px;height:56px;text-align:center;}
+
+.fill_btn{width:100%;height:100%;border:1px solid white;background:black;
+font-size:20px;color:white;cursor:pointer;display:block;}
+.fill_btnhide{display:none;}
+
+.filter_search{margin-top:19px;margin-left:31px;width:90%;height:62px;display:block;}
+.filter_shide{display:none;}
+.srch_inp{width:100%;height:62px;font-size:18px;}
+
+.menus{margin-top:23px;margin-left:31px;display:flex;gap:18px;}
+.menus button{width:180px;height:46px;font-size:20px;background:white;cursor:pointer;}
+.menus button:hover{background:black;color:white;}
+
+
+.headershopname{font-size:24px;margin-left:31px;margin-top:26px;}
+.allapidata{display:grid;grid-template-columns:repeat(4,1fr);text-align:center;grid-template-rows: auto;
+gap:5px;margin-top:26px;margin-left:31px;}
+.imageapi{border:1px solid black;height:500px;width:250px;}
+
+.shopmainpic{margin-top:20px;}
+
+.menshow{display:block;}
+.menhide{display:none;}
+.womenshow{display:block;}
+.womenhide{display:none;}
+.jewelleryshow{display:block;}
+.jewelleryhide{display:none;}
+.electronicshow{display:block;}
+.electronichide{display:none;}
+
+.price_size{display:flex;justify-content:space-between;}
+.price{margin-left:15px;margin-top:20px;}
+.size{margin-right:15px;margin-top:20px;}
+
+.colors{display:flex;gap:8px;margin-left:15px;margin-top:20px;}
+.black{width:17px;height:17px;border-radius:50%;background:black;}
+.blue{width:17px;height:17px;border-radius:50%;background:blue;}
+.green{width:17px;height:17px;border-radius:50%;background:green;}
+.white{width:17px;height:17px;border-radius:50%;background:white;border:1px solid black;}
+.red{width:17px;height:17px;border-radius:50%;background:red;}
+
+.ratings{display:flex;gap:5px;margin-left:15px;margin-top:20px;align-items:center;}
+.star1{filter: invert(98%) sepia(29%) saturate(5396%) hue-rotate(317deg) brightness(109%) contrast(100%);}
+
+.addtocart{margin-top:24px;width:100%;height:30px;}
+.addtocart button{width:100%;height:30px;background:black;color:white;border:1px solid black;cursor:pointer;
+font-size:18px;font-weight:400;}
+
+
+.s_show{display:block;}
+.s_hide{display:none;}
+
+.searchfilter{position:relative;left:1015px;width:50px;bottom:45px;display:block;}
+.searchfilter_hide{display:none;}
+.searchfilter button{border:2px solid black;background:white;cursor:pointer;}
+
+
+
+
